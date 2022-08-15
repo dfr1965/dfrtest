@@ -8,3 +8,5 @@ Modifie, commit -m "commite à 21:23" et push
 modifie, commit -m "commit à 21:30 et push"
 modifie sur serveur 15/08/2022 à 9:43
 passe sur branch dfrbranch001 et modifie readme.txt, commit et push
+modife ds la branck dfrbranch001
+Est-ce qu'apres le merge je n'aurais pas perdu les modof faites en Main ?
