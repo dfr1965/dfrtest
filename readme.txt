@@ -6,3 +6,4 @@ ne fait rien pcq pas de commit :)  alors git commit -m "commit puis push à 20:1
 Modifie, commit -m "commite à 21:17" et push
 Modifie, commit -m "commite à 21:23" et push
 modifie, commit -m "commit à 21:30 et push"
+modifie sur serveur 15/08/2022 à 9:43
