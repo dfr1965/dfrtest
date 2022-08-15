@@ -25,3 +25,16 @@ $ git push
 Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/dfr1965/dfrtest.git
    95c14c2..196d2c8  main -> main
+modife ds la branck dfrbranch001
+Est-ce qu'apres le merge je n'aurais pas perdu les modof faites en Main ?
+
+Non pcq le merge me dit 
+$ git merge dfrbranch001
+Auto-merging readme.txt
+CONFLICT (content): Merge conflict in readme.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+Si j'edit le fichier readme les difference sont bien ciblées avec le contenu de HEAD et le contenu de la banche.
+
+Je peux donc modifie le fichier , le sauvegarder et le commiter
+
