@@ -8,8 +8,37 @@ Modifie, commit -m "commite à 21:23" et push
 modifie, commit -m "commit à 21:30 et push"
 modifie sur serveur 15/08/2022 à 9:43
 passe sur branch dfrbranch001 et modifie readme.txt, commit et push
+Ensuite je repasse sur main, git checkout main afin de pouvoir faire un merge de main avec dfrbranch001
+Je verifie que je suis bien sur main avec git branch, la branche sur laquelle je suis est celle avec * en debut
+Ensuite je fait 
+git merge dfrbranch001
+CORP-TALAN+didier.francois@TAL-4V0NMG3 MINGW64 ~/Documents/GITdfrtest (main)
+$ git merge dfrbranch001
+Updating 95c14c2..196d2c8
+Fast-forward
+ readme.txt | 1 +
+ 1 file changed, 1 insertion(+)
+et pour pousser sur le serveur alors 
+git push
+CORP-TALAN+didier.francois@TAL-4V0NMG3 MINGW64 ~/Documents/GITdfrtest (main)
+$ git push
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/dfr1965/dfrtest.git
+   95c14c2..196d2c8  main -> main
 modife ds la branck dfrbranch001
 Est-ce qu'apres le merge je n'aurais pas perdu les modof faites en Main ?
 
+
+
+
+Non pcq le merge me dit 
+$ git merge dfrbranch001
+Auto-merging readme.txt
+CONFLICT (content): Merge conflict in readme.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+Si j'edit le fichier readme les difference sont bien ciblées avec le contenu de HEAD et le contenu de la banche.
+
+Je peux donc modifie le fichier , le sauvegarder et le commiter
 changement le 21/08/2022 à 9:09
 change depuis gitk, git gui
